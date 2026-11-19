@@ -2,9 +2,9 @@ function minDate(dates) {
   //write you code here
 	let min=dates[0]
 	for(let i=1;i<dates.length;i++){
-		if(dates[0]<dates[0])
+		if(dates[i]<min)
 		{
-			min=dates[0];
+			min=dates[i];
 		}}
 	return min
 }
