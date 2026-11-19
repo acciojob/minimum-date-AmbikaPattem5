@@ -1,6 +1,6 @@
 function minDate(dates) {
   //write you code here
-	let min=dates[0]
+	let min=dates[0];
 	for(let i=1;i<dates.length;i++){
 		if(dates[i]<min)
 		{
